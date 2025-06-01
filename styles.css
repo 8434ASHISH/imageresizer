@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6b48ff, #ff6b6b);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background: #ff9800;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo span {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0 0 15px 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.highlighted-title {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.upload-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.shifted-up {
+    margin-top: -20px;
+}
+
+.upload-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.kb-input {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.kb-input input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.image-preview {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.file-info {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.inline-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-group input[type="number"] {
+    width: 45%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.inline-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline-inputs input[type="number"] {
+    width: 48%;
+}
+
+.input-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.output-options {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.output-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.new-highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+button {
+    background: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+button.secondary {
+    background: #ddd;
+    color: #333;
+}
+
+.download-image {
+    background: #4CAF50;
+}
+
+.download-pdf {
+    background: #2196F3;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.result-info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    display: none;
+}
+
+.pdf-option {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pdf-option button {
+    width: 48%;
+    margin-right: 4%;
+}
+
+.footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content-sections {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.section h3 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.section p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.section ol {
+    padding-left: 20px;
+}
+
+.section ol li {
+    margin-bottom: 10px;
+}
+
+.ads-section {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.ad-unit {
+    margin-top: 10px;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    .inline-options {
+        flex-direction: column;
+    }
+    .inline-options label {
+        margin-bottom: 10px;
+    }
+    .inline-inputs input[type="number"] {
+        width: 45%;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pdf-option button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .section {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 601px) {
+    .container {
+        max-width: 800px;
+    }
+}
